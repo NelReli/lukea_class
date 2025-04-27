@@ -24,10 +24,10 @@ class Ticket {
     }
 
     public function afficherTicket(): void {
-        echo "Ticket {$this->id} - {$this->titre}\n";
-        echo "Description: {$this->description}\n";
-        echo "Statut: {$this->statut}\n";
-        echo "Créé le: {$this->date->format("d/m/Y H:i:s")}\n";
-        echo "----------------------------\n";
+        echo "Ticket {$this->id} - {$this->titre}<br>";
+        echo "Description: {$this->description}<br>";
+        echo "Statut: {$this->statut}<br>";
+        echo "Créé le: {$this->date->format("d/m/Y H:i:s")}<br>";
+        echo "----------------------------<br>";
     }
 }

@@ -10,7 +10,7 @@ class TicketAmelioration extends Ticket {
 
     public function afficherDetailsAmelioration(): void {
         $this->afficherTicket();
-        echo "Proposition de solution: {$this->propositionSolution}\n";
-        echo "----------------------------\n";
+        echo "Proposition de solution: {$this->propositionSolution}<br>";
+        echo "----------------------------<br>";
     }
 }

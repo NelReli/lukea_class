@@ -16,10 +16,10 @@ $gestionnaire->ajouterTicket($ticket3);
 
 $gestionnaire->afficherTousLesTickets();
 
-echo "\nDétails d'un ticket bug :\n";
+echo "\nDétails d'un ticket bug :<br>";
 $ticket2->afficherDetailsBug();
 
 $gestionnaire->fermerTicket(1);
 
-echo "\nAprès modification :\n";
+echo "\nAprès modification :<br>";
 $gestionnaire->afficherTousLesTickets();

@@ -10,7 +10,7 @@ class TicketBug extends Ticket {
 
     public function afficherDetailsBug() {
         $this->afficherTicket();
-        echo "Niveau d'urgence: {$this->niveauUrgence}\n";
-        echo "----------------------------\n";
+        echo "Niveau d'urgence: {$this->niveauUrgence}<br>";
+        echo "----------------------------<br>";
     }
 }

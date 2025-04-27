@@ -26,9 +26,9 @@ class GestionnaireTicket {
         $ticket = $this->trouverTicketParId($id);
         if($ticket) {
             $ticket->changerStatut('Fermé');
-            echo "\nTicket #$id a été fermé.\n";
+            echo "\nTicket #$id a été fermé.<br>";
         } else {
-            echo "\nTicket #$id introuvable.\n";
+            echo "\nTicket #$id introuvable.<br>";
         }
     }
 }
